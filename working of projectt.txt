@@ -1,0 +1,17 @@
+# SauceDemo Login Automation Project
+
+## How to run
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Ensure 'test_results.xlsx' exists in the project root, with header as below:
+   Test Case ID | Scenario | Username | Password | Expected Result | Actual Result | Status | Comments/Defects
+
+3. Run the script:
+   python test_login.py
+
+## What gets logged
+- Each test case result will append as a new row to 'test_results.xlsx' showing pass/fail and detailed comments for defects.
+
+You may open/modify 'test_results.xlsx' in Excel or Google Sheets for further reporting or analysis.
